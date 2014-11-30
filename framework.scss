@@ -1,8 +1,8 @@
 /* CSS framework
-@version 1.0.5 */
+@version 1.0.6 */
 
 /* body */
-body {
+body { 
     overflow: hidden;//Impedisce lo scroll in basso mentre è visibile il preloader
 }
 
@@ -24,7 +24,7 @@ body {
     position:absolute;
     left:50%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../images/loading.gif); /* path to your loading animation */
+    background-image:url(../../images/loading.gif); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
