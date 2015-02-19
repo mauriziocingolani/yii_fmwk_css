@@ -1,5 +1,5 @@
 /* CSS framework
-@version 1.0.6 */
+@version 1.0.7 */
 
 /* body */
 body { 
@@ -110,4 +110,29 @@ div.form-message {
 /* Simulazione */
 .navbar-default .navbar-nav>li>a.fakeuser {
     color: red;
+}
+
+/* twitter */
+.tweet,.tweet-reverse {
+    header {
+        i {color: #55acee;}
+        span {color: #66757f;}
+    }
+    p {
+        color: blask;
+        .hashtag {color: #55acee;}
+        a {
+            color: #8899a6;
+            transition: color 0.5s;
+            &:hover {
+                color: #55acee;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.tweet-reverse {
+    p {
+        color: white;
+    }
 }
